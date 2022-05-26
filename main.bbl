@@ -16,5 +16,78 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Roberts2019}{misc}{}
+      \name{author}{9}{}{%
+        {{hash=6989df20a262846637e8f76032563234}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Chase},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fdfe704c417606a1174828d12fdb1eba}{%
+           family={Milsted},
+           familyi={M\bibinitperiod},
+           given={Ashley},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f0f3587e069a45aa3c06ede2cfb44e46}{%
+           family={Ganahl},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e6df2c969e6e639ddd23909ad813034d}{%
+           family={Zalcman},
+           familyi={Z\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59cf6df1a82a82f994217f39032b355e}{%
+           family={Fontaine},
+           familyi={F\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e934d23f63abfaaaa16497aadc4a9a97}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Yijian},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=68cf2b43d6be63b1ffea346ffe45c1c2}{%
+           family={Hidary},
+           familyi={H\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d3f8c6663f1fa635f1b95e9d2da51116}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Guifre},
+           giveni={G\bibinitperiod}}}%
+        {{hash=188e0a3433fcb8ba6f7bea5a6b6b82f1}{%
+           family={Leichenauer},
+           familyi={L\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Google}%
+      }
+      \strng{namehash}{5d965d3f138508b2e2a98c70533db86b}
+      \strng{fullhash}{d913845b83e8e38f7d16b4807f9fcf08}
+      \strng{bibnamehash}{5d965d3f138508b2e2a98c70533db86b}
+      \strng{authorbibnamehash}{5d965d3f138508b2e2a98c70533db86b}
+      \strng{authornamehash}{5d965d3f138508b2e2a98c70533db86b}
+      \strng{authorfullhash}{d913845b83e8e38f7d16b4807f9fcf08}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{TensorNetwork: A Library for Physics and Machine Learning}}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1905.01330
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
