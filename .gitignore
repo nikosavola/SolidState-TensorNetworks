@@ -16,4 +16,5 @@ main.pdf
 *.out
 *.run.xml
 *.xdv
+*.synctex.gz
 _minted-*
