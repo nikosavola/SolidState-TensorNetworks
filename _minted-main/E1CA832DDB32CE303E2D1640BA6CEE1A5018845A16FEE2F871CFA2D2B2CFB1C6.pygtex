@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} the hamiltonian}
+\PYG{n}{H} \PYG{o}{=} \PYG{n}{qu}\PYG{o}{.}\PYG{n}{ham\PYGZus{}ising}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{jz}\PYG{o}{=}\PYG{l+m+mf}{1.0}\PYG{p}{,} \PYG{n}{bx}\PYG{o}{=}\PYG{l+m+mf}{0.7}\PYG{p}{,} \PYG{n}{cyclic}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{Verbatim}

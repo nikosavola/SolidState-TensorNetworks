@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  30 MAY 2022 13:22
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  30 MAY 2022 17:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1293,61 +1293,61 @@ Package csquotes Info: Redefining alias 'default' -> 'british'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 19.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 20.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 19.
+ 20.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-9.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 20.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-19.
+20.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 20.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 19.
+ 20.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 20.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 19.
+e 20.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 19.
-Package hyperref Info: Link coloring OFF on input line 19.
+LaTeX Font Info:    ... okay on input line 20.
+Package hyperref Info: Link coloring OFF on input line 20.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1360,9 +1360,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count508
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 (./main.out) (./main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -1399,74 +1399,70 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
 [1
 
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.81 ...uimb.readthedocs.io/en/latest/examples/ex_
-                                                  tn_train_circuit.html
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 LaTeX Font Info:    Trying to load font information for OT1+AdobeTextPro(0) on 
-input line 81.
-LaTeX Font Info:    No file OT1AdobeTextPro(0).fd. on input line 81.
+input line 74.
+LaTeX Font Info:    No file OT1AdobeTextPro(0).fd. on input line 74.
+
 
 LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 81.
+(Font)              using `OT1/cmr/m/n' instead on input line 74.
 
-LaTeX Font Info:    Trying to load font information for U+esint on input line 8
-1.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 7
+4.
 (/opt/texlive/texdir/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-81.
+74.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-81.
+74.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-81.
+74.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+File: figures/tensor_diagrams.png Graphic file (type bmp)
+<figures/tensor_diagrams.png>
+File: figures/sample_contractions.png Graphic file (type bmp)
+<figures/sample_contractions.png>
+ [1]
+\openout3 = `main.pyg'.
 
 
-LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 95.
+(./_minted-main/emacs.pygstyle)
+(./_minted-main/E1CA832DDB32CE303E2D1640BA6CEE1A5018845A16FEE2F871CFA2D2B2CFB1C
+6.pygtex)
+
+LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 146.
 
 ! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
 <to be read again> 
                    }
-l.95 ....97\textwidth]{figures/ansatz_circuit.pdf}
+l.146 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1478,7 +1474,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 ....97\textwidth]{figures/ansatz_circuit.pdf}
+l.146 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1489,22 +1485,25 @@ File: figures/ansatz_circuit.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.95 ....97\textwidth]{figures/ansatz_circuit.pdf}
+l.146 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
 
-[1]
+[2] [3]
 
 LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' in size <5.5> not avai
 lable
-(Font)              size <5> substituted on input line 124.
+(Font)              size <5> substituted on input line 184.
 
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 19.
-See the caption package documentation for explanation.
+Overfull \hbox (9.28113pt too wide) in paragraph at lines 184--184
+[]\TU/AdobeTextPro(0)/m/n/10 E. M. Stoudenmire, \TU/AdobeTextPro(0)/m/it/10 Ten
+sor Diagram Notation\TU/AdobeTextPro(0)/m/n/10 , April 2021, [Online]. Availabl
+e: []$[][][][][] [] [] [] [][][][][][][][][][][][][] []
+ []
 
-[2] (./main.aux)
+[4] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1513,18 +1512,20 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 74F2C2036958D7848D62AEF8A60A9AD4;928.
+(rerunfilecheck)             Checksum: 1BF91F9780EFAD9F087BEF00A890F09F;1335.
+runsystem(rm main.pyg)...executed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36940 strings out of 476143
- 738934 string characters out of 5810533
- 1577856 words of memory out of 5000000
- 57197 multiletter control sequences out of 15000+600000
- 490907 words of font info for 125 fonts, out of 8000000 for 9000
+ 37124 strings out of 476143
+ 743154 string characters out of 5810533
+ 1588464 words of memory out of 5000000
+ 57363 multiletter control sequences out of 15000+600000
+ 490955 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 80i,11n,88p,1118b,5046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,11n,88p,1159b,5060s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (3 pages, 16828 bytes).
+Output written on main.xdv (5 pages, 70620 bytes).

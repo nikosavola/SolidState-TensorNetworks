@@ -1,15 +1,15 @@
 # Fdb version 3
-["biber main"] 1653916958 "main.bcf" "main.bbl" "main" 1653916970
-  "main.bcf" 1653916970 106594 f77b7893eae0ba042a1df4043ee25cd4 "xelatex"
-  "references.bib" 1653916944 420 e0c225385e4d5ae16da4e176c7562f3c ""
+["biber main"] 1653931469 "main.bcf" "main.bbl" "main" 1653931482
+  "main.bcf" 1653931481 107591 e47747937a4db59e4592e0f8eceda952 "xelatex"
+  "references.bib" 1653931455 5653 ba1bafeb5ab042f0c5679f1e92ee0d3d ""
   (generated)
   "main.bbl"
   "main.blg"
-["xdvipdfmx"] 1653916970 "main.xdv" "main.pdf" "main" 1653916970
-  "main.xdv" 1653916970 16828 84408080efbea32ac12897635db7c3c6 "xelatex"
+["xdvipdfmx"] 1653931481 "main.xdv" "main.pdf" "main" 1653931482
+  "main.xdv" 1653931481 70620 77eb386910c0927d939063a08fe90484 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1653916968 "main.tex" "main.xdv" "main" 1653916970
+["xelatex"] 1653931479 "main.tex" "main.xdv" "main" 1653931482
   "/dev/null" 0 -1 0 ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -190,13 +190,17 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1651368209 5423108 162eaf97aa8634244d18404738b62abd ""
   "/opt/texlive/texdir/texmf.cnf" 1651368150 555 bd60ff59e4d560b42d96b004436f91d3 ""
+  "_minted-main/E1CA832DDB32CE303E2D1640BA6CEE1A5018845A16FEE2F871CFA2D2B2CFB1C6.pygtex" 1653931468 342 fb6be346e76e43494087fe0b15d07791 ""
+  "_minted-main/emacs.pygstyle" 1653931468 6365 55f825d08fb893283911d292e9813aec ""
   "figures/ansatz_circuit.pdf" 0 -1 0 ""
-  "main.aux" 1653916970 2231 c4a4f443ec1d6dc26b6f75b34c56ea6b "xelatex"
-  "main.bbl" 1653916963 3066 66324192ed244b9f1b72e78fc7deb64c "biber main"
-  "main.out" 1653916970 928 74f2c2036958d7848d62aef8a60a9ad4 "xelatex"
-  "main.run.xml" 1653916970 2468 f6a79f9fc35f985e789f730383ad2570 "xelatex"
-  "main.tex" 1653916944 2318 45c287dd9e9694b00ce6299c2f6c28d2 ""
-  "preamble.tex" 1653916944 4355 ff002223960d0040b65f910df08797d2 ""
+  "figures/sample_contractions.png" 1653931455 73653 00eaa224bac5d0e840ad53ea16c7eea8 ""
+  "figures/tensor_diagrams.png" 1653931455 48592 bf26a85ae185c34d45e96be7d64eef7d ""
+  "main.aux" 1653931481 5482 3beed150ce7d91753be59485faa28d24 "xelatex"
+  "main.bbl" 1653931474 16946 15269022292c89fd2353f3117ea3ce2f "biber main"
+  "main.out" 1653931481 1335 1bf91f9780efad9f087bef00a890f09f "xelatex"
+  "main.run.xml" 1653931481 2468 f6a79f9fc35f985e789f730383ad2570 "xelatex"
+  "main.tex" 1653931455 6043 422b565a06f897fb4e2f9fb4d475f5b2 ""
+  "preamble.tex" 1653931455 4355 ff002223960d0040b65f910df08797d2 ""
   (generated)
   "main.aux"
   "main.bcf"

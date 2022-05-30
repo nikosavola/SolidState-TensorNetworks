@@ -19,6 +19,45 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{PhysRevLett.69.2863}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f310d2e0232138ba6117db89589f7c32}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Steven\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f310d2e0232138ba6117db89589f7c32}
+      \strng{fullhash}{f310d2e0232138ba6117db89589f7c32}
+      \strng{bibnamehash}{f310d2e0232138ba6117db89589f7c32}
+      \strng{authorbibnamehash}{f310d2e0232138ba6117db89589f7c32}
+      \strng{authornamehash}{f310d2e0232138ba6117db89589f7c32}
+      \strng{authorfullhash}{f310d2e0232138ba6117db89589f7c32}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{number}{19}
+      \field{title}{{Density matrix formulation for quantum renormalization groups}}
+      \field{volume}{69}
+      \field{year}{1992}
+      \field{pages}{2863\bibrangedash 2866}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.69.2863
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.69.2863
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.69.2863
+      \endverb
+    \endentry
     \entry{Roberts2019}{misc}{}
       \name{author}{9}{}{%
         {{hash=6989df20a262846637e8f76032563234}{%
@@ -76,8 +115,8 @@
       \strng{authorbibnamehash}{5d965d3f138508b2e2a98c70533db86b}
       \strng{authornamehash}{5d965d3f138508b2e2a98c70533db86b}
       \strng{authorfullhash}{d913845b83e8e38f7d16b4807f9fcf08}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -85,6 +124,298 @@
       \field{year}{2019}
       \verb{eprint}
       \verb 1905.01330
+      \endverb
+    \endentry
+    \entry{Levin_2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b894ed954a34072e79a8714d134644ba}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2a587308e49f06941d27c511959d6082}{%
+           family={Nave},
+           familyi={N\bibinitperiod},
+           given={Cody\bibnamedelima P},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({\{}APS{\}})}%
+      }
+      \strng{namehash}{9bb1db1ef751cfafac7a0e20b6517592}
+      \strng{fullhash}{9bb1db1ef751cfafac7a0e20b6517592}
+      \strng{bibnamehash}{9bb1db1ef751cfafac7a0e20b6517592}
+      \strng{authorbibnamehash}{9bb1db1ef751cfafac7a0e20b6517592}
+      \strng{authornamehash}{9bb1db1ef751cfafac7a0e20b6517592}
+      \strng{authorfullhash}{9bb1db1ef751cfafac7a0e20b6517592}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{9}
+      \field{number}{12}
+      \field{title}{{Tensor Renormalization Group Approach to Two-Dimensional Classical Lattice Models}}
+      \field{volume}{99}
+      \field{year}{2007}
+      \field{pages}{120601}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.99.120601
+      \endverb
+    \endentry
+    \entry{White1999}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f310d2e0232138ba6117db89589f7c32}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Steven\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=2683b1def77200ee2d46aa650bd63b7e}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f02455f5f7c08a6918eb487d954f988}
+      \strng{fullhash}{5f02455f5f7c08a6918eb487d954f988}
+      \strng{bibnamehash}{5f02455f5f7c08a6918eb487d954f988}
+      \strng{authorbibnamehash}{5f02455f5f7c08a6918eb487d954f988}
+      \strng{authornamehash}{5f02455f5f7c08a6918eb487d954f988}
+      \strng{authorfullhash}{5f02455f5f7c08a6918eb487d954f988}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{3}
+      \field{number}{9}
+      \field{title}{{Ab initio quantum chemistry using the density matrix renormalization group}}
+      \field{volume}{110}
+      \field{year}{1999}
+      \field{pages}{4127\bibrangedash 4130}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.478295
+      \endverb
+    \endentry
+    \entry{Bao_2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7cb1832d85c7267592e948ced22ec567}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2ee1528296a5cd521dc7a80999c2ae94}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={ChunJun},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a21efd7d6f43a778b4bd8bd5cf50c950}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Sean\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e9c409f507038c9d84ebc97698b73877}{%
+           family={Chatwin-Davies},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Aidan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({\{}APS{\}})}%
+      }
+      \strng{namehash}{e0ac4d4bbfe162518f48a6b31e8a5c4a}
+      \strng{fullhash}{e0ac4d4bbfe162518f48a6b31e8a5c4a}
+      \strng{bibnamehash}{e0ac4d4bbfe162518f48a6b31e8a5c4a}
+      \strng{authorbibnamehash}{e0ac4d4bbfe162518f48a6b31e8a5c4a}
+      \strng{authornamehash}{e0ac4d4bbfe162518f48a6b31e8a5c4a}
+      \strng{authorfullhash}{e0ac4d4bbfe162518f48a6b31e8a5c4a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{de Sitter space as a tensor network: Cosmic no-hair, complementarity, and complexity}}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{123536}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.96.123536
+      \endverb
+    \endentry
+    \entry{Bridgeman_2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9c8033f78b99b1ae1c4f21fb174b3722}{%
+           family={Bridgeman},
+           familyi={B\bibinitperiod},
+           given={Jacob\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=cc9a21f633e6f07bfceb0f4f1f2954d5}{%
+           family={Chubb},
+           familyi={C\bibinitperiod},
+           given={Christopher\bibnamedelima T},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{\{}IOP{\}} Publishing}%
+      }
+      \strng{namehash}{7e3bbafad13f0c0a596f718854580541}
+      \strng{fullhash}{7e3bbafad13f0c0a596f718854580541}
+      \strng{bibnamehash}{7e3bbafad13f0c0a596f718854580541}
+      \strng{authorbibnamehash}{7e3bbafad13f0c0a596f718854580541}
+      \strng{authornamehash}{7e3bbafad13f0c0a596f718854580541}
+      \strng{authorfullhash}{7e3bbafad13f0c0a596f718854580541}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The curse of dimensionality associated with the Hilbert space of spin systems provides a significant obstruction to the study of condensed matter systems. Tensor networks have proven an important tool in attempting to overcome this difficulty in both the numerical and analytic regimes. These notes form the basis for a seven lecture course, introducing the basics of a range of common tensor networks and algorithms. In particular, we cover: introductory tensor network notation, applications to quantum information, basic properties of matrix product states, a classification of quantum phases using tensor networks, algorithms for finding matrix product states, basic properties of projected entangled pair states, and multiscale entanglement renormalisation ansatz states. The lectures are intended to be generally accessible, although the relevance of many of the examples may be lost on students without a background in many-body physics/quantum information. For each lecture, several problems are given, with worked solutions in an ancillary file.}
+      \field{journaltitle}{Journal of Physics A: Mathematical and Theoretical}
+      \field{month}{5}
+      \field{number}{22}
+      \field{title}{{Hand-waving and interpretive dance: an introductory course on tensor networks}}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{pages}{223001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1751-8121/aa6dc3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1751-8121/aa6dc3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1751-8121/aa6dc3
+      \endverb
+    \endentry
+    \entry{Stoudenmire2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c6f16a77a14a184c9454adb5aa4b3e25}{%
+           family={Stoudenmire},
+           familyi={S\bibinitperiod},
+           given={Edwin\bibnamedelima Miles},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6f16a77a14a184c9454adb5aa4b3e25}
+      \strng{fullhash}{c6f16a77a14a184c9454adb5aa4b3e25}
+      \strng{bibnamehash}{c6f16a77a14a184c9454adb5aa4b3e25}
+      \strng{authorbibnamehash}{c6f16a77a14a184c9454adb5aa4b3e25}
+      \strng{authornamehash}{c6f16a77a14a184c9454adb5aa4b3e25}
+      \strng{authorfullhash}{c6f16a77a14a184c9454adb5aa4b3e25}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{tensornetwork.org}
+      \field{month}{4}
+      \field{title}{{Tensor Diagram Notation}}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tensornetwork.org/diagrams
+      \endverb
+      \verb{url}
+      \verb https://tensornetwork.org/diagrams
+      \endverb
+    \endentry
+    \entry{DL_review}{article}{}
+      \name{author}{3}{}{%
+        {{hash=84328c493c7a56f9a4ab619915ba4e89}{%
+           family={Yapıcı},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi Mutlu},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=41c6e80459c3b1a4a497be09412708dc}{%
+           family={Tekerek},
+           familyi={T\bibinitperiod},
+           given={Adem},
+           giveni={A\bibinitperiod}}}%
+        {{hash=af92d624d104c20f0142a1c933507cd9}{%
+           family={Topaloğlu},
+           familyi={T\bibinitperiod},
+           given={Nurettin},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcbb17f8921f20040525e54d13cf519a}
+      \strng{fullhash}{dcbb17f8921f20040525e54d13cf519a}
+      \strng{bibnamehash}{dcbb17f8921f20040525e54d13cf519a}
+      \strng{authorbibnamehash}{dcbb17f8921f20040525e54d13cf519a}
+      \strng{authornamehash}{dcbb17f8921f20040525e54d13cf519a}
+      \strng{authorfullhash}{dcbb17f8921f20040525e54d13cf519a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gazi Journal of Engineering Sciences}
+      \field{month}{12}
+      \field{number}{3}
+      \field{title}{{Literature Review of Deep Learning Research Areas}}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{pages}{188\bibrangedash 215}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.30855/gmbd.2019.03.01
+      \endverb
+    \endentry
+    \entry{PhysRevB.97.085104}{article}{}
+      \name{author}{5}{}{%
+        {{hash=11c05b885f1bc92570da26e49722e81d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=93b70d9ad07c70986644abb65a9b529a}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8c653423a3f4208236ebf21fd4b3b646}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Haidong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1f647bb6da8304b7be380ec58eb6373a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=20de9f859b0b9bfb12fa85f3513c2fc1}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{85c89295b39ee2a3cfb1c902c9ad3953}
+      \strng{fullhash}{85c89295b39ee2a3cfb1c902c9ad3953}
+      \strng{bibnamehash}{85c89295b39ee2a3cfb1c902c9ad3953}
+      \strng{authorbibnamehash}{85c89295b39ee2a3cfb1c902c9ad3953}
+      \strng{authornamehash}{85c89295b39ee2a3cfb1c902c9ad3953}
+      \strng{authorfullhash}{85c89295b39ee2a3cfb1c902c9ad3953}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{2}
+      \field{number}{8}
+      \field{title}{{Equivalence of restricted Boltzmann machines and tensor network states}}
+      \field{volume}{97}
+      \field{year}{2018}
+      \field{pages}{085104}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.97.085104
       \endverb
     \endentry
   \enddatalist
