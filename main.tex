@@ -15,6 +15,7 @@
 
 \usepackage[braket, qm]{qcircuit}  % Qiskit output
 
+% \setminted{fontsize=\footnotesize, baselinestretch=1}
 
 \begin{document}
 
@@ -55,36 +56,86 @@
 
 \section{Introduction}
 
-TODO review paragraph.
-https://youtu.be/q8UTwdjS95k
+Tensor networks have been originally developed for efficiently storing and manipulating high-dimensional quantum many-body states~\cite{PhysRevLett.69.2863}. These variational families of wavefunctions emerge from low-entanglement representations of quantum states. Contemporary applications however include a wide range of fields, such as, machine learning~\cite{Roberts2019}, statistical mechanics~\cite{Levin_2007}, quantum chemistry~\cite{White1999}, and cosmology~\cite{Bao_2017}.
+This exercise aims to present the theory behind tensor networks and their use in machine learning. Then we present a numerical example for training a tensor network representing a quantum circuit, effectively pre-training a quantum computer for solving a problem.
 
-Central to these developments are
-tensor-network representations of many-body quantum states.
-These are successful variational families of many-body wave
-functions, naturally emerging from low-entanglement representations of quantum states (Verstraete, Murg, and Cirac,
-2008). T
+% can be used in 
+
+
+% TODO review paragraph.
+% https://youtu.be/q8UTwdjS95k
+
 
 \section{Theory}
 
 \subsection{Tensor networks}
 
-TODO notation from https://arxiv.org/pdf/1905.01330.pdf
+Tensor networks are a powerful tool for splitting a high-dimensional function into constituent parts of smaller tensors. 
+Here a tensor refers to a multidimensional array, rank zero corresponding to a scalar, rank one to a vector, rank two to a matrix, and further ranks being referred to as rank $n$ tensors.
+
+It is natural to use Tensor network notation (TNN), which can be considered a graphical generalisation of Einstein summation, for presenting Tensor networks~\cite{Bridgeman_2017}. This notation maps tensors to  nodes with lines corresponding to the rank of the tensor. The lines represent indices for the multidimensional array, see \cref{sfig:tensor_basics}.
+
+The elegance of TNN arises from contracting tensors. Multiplication is done by linking the lines of the tensors. For example, matrix-vector multiplication consists of linking a node with one line to a node with two lines. The ensuing tensor will have one free line, resulting in a vector as expected.
+This logic is further demonstrated for a few examples in \cref{sfig:tensor_samples}.
+Notice how multiplication of high-rank tensors is rendered graphically trivial. This is indeed useful for representing complex architectures of tensor networks.
+
+
+
+\begin{figure}[htb]
+    \centering
+    \subfloat[]{{\includegraphics[width=0.43\textwidth]{figures/tensor_diagrams.png}\label{sfig:tensor_basics}}} \qquad
+    \subfloat[]{{\includegraphics[width=0.45\textwidth]{figures/sample_contractions.png}\label{sfig:tensor_samples}}}
+    
+    \caption{\protect\subref{sfig:tensor_basics} Examples of low-rank tensors and their TNN representations. \protect\subref{sfig:tensor_samples} Examples of tensor contractions for matrices. From top to bottom: matrix-vector product, matrix multiplication, and their trace. Note how the last example elegantly results in a scalar. Schematics from Ref.~\cite{Stoudenmire2021}}
+    \label{fig:tensor_diagrams}
+\end{figure}
+
+% TODO notation from https://arxiv.org/pdf/1905.01330.pdf
+
+
+\subsubsection{Machine learning}
+
+As interest in deep learning has skyrocketed~\cite{DL_review}, using Tensor networks in conjunction with neural networks (NN) has been explored.
+Although tensor networks are still an active research topic, some prominent tensor network architectures for machine learning have emerged, such as, Matrix Product States (MPS) and Tensor Renormalization Group (TRG).
+
+TODO MPS
+
+
+TODO TRG https://tensornetwork.org/trg/
+
+
+One branch of research involves using a tensor network directly as machine learning model architecture. Another uses tensor networks to compress layers in neural network architectures or for other auxilary tasks.
+
+a paradigm called differentiable programming.
+
+TODO MPS
+
+
+In fact, it has been shown that there exists a mapping from generative neural networks referred to as Restricted Boltzmann machines to Tensor networks~\cite{PhysRevB.97.085104}, highlighting the link to deep learning.
+
 
 \subsection{Modelling many-body physics}
 
 todo work as Ansätze
 
 
-\subsection{Numerical implementation}
+\section{Numerical implementation}
 
 
-https://quimb.readthedocs.io/en/latest/examples/ex_tn_train_circuit.html
+% https://quimb.readthedocs.io/en/latest/examples/ex_tn_train_circuit.html
 
 
 \cite{Roberts2019}
 
 
-\section{Results}
+\begin{minted}{python}
+# the hamiltonian
+H = qu.ham_ising(n, jz=1.0, bx=0.7, cyclic=False)
+\end{minted}
+
+
+
+\section{Example: Training a quantum circuit for unitary evolution}
 
 todo
 
@@ -98,6 +149,15 @@ todo
     \label{fig:qasm_circuit}
 \end{figure}
 
+
+
+todo suprajohto qubit toteutus
+https://arxiv.org/pdf/2103.12305.pdf
+
+
+
+
+but the motivation is that the architecture generalises to unknown problem
 
 \section{Summary}
 
