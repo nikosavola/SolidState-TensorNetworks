@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  30 MAY 2022 17:24
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  1 JUN 2022 16:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1449,20 +1449,56 @@ File: figures/tensor_diagrams.png Graphic file (type bmp)
 <figures/tensor_diagrams.png>
 File: figures/sample_contractions.png Graphic file (type bmp)
 <figures/sample_contractions.png>
- [1]
+ [1] [2]
 \openout3 = `main.pyg'.
 
 
 (./_minted-main/emacs.pygstyle)
-(./_minted-main/E1CA832DDB32CE303E2D1640BA6CEE1A5018845A16FEE2F871CFA2D2B2CFB1C
+(./_minted-main/C431C2D988C0674286052C86052C77AD5018845A16FEE2F871CFA2D2B2CFB1C
 6.pygtex)
 
-LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 146.
+LaTeX Warning: File `figures/tensor_network_graph.pdf' not found on input line 
+186.
 
-! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
+! Unable to load picture or PDF file 'figures/tensor_network_graph.pdf'.
 <to be read again> 
                    }
-l.146 ...97\textwidth]{figures/ansatz_circuit.pdf}
+l.186 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+                                                   \quad
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+                                                   \quad
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: figures/tensor_network_graph.pdf Graphic file (type pdf)
+<use figures/tensor_network_graph.pdf>
+! Unable to load picture or PDF file 'figures/tensor_network_graph.pdf'.
+<to be read again> 
+                   \GPT@clipend 
+l.186 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+                                                   \quad
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+LaTeX Warning: File `figures/tensor_network_qubits.pdf' not found on input line
+ 187.
+
+! Unable to load picture or PDF file 'figures/tensor_network_qubits.pdf'.
+<to be read again> 
+                   }
+l.187 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1474,7 +1510,41 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.146 ...97\textwidth]{figures/ansatz_circuit.pdf}
+l.187 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: figures/tensor_network_qubits.pdf Graphic file (type pdf)
+<use figures/tensor_network_qubits.pdf>
+! Unable to load picture or PDF file 'figures/tensor_network_qubits.pdf'.
+<to be read again> 
+                   \GPT@clipend 
+l.187 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 205.
+
+! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
+<to be read again> 
+                   }
+l.205 ...97\textwidth]{figures/ansatz_circuit.pdf}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1485,25 +1555,25 @@ File: figures/ansatz_circuit.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.146 ...97\textwidth]{figures/ansatz_circuit.pdf}
+l.205 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
 
-[2] [3]
+[3] [4]
 
 LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' in size <5.5> not avai
 lable
-(Font)              size <5> substituted on input line 184.
+(Font)              size <5> substituted on input line 243.
 
 
-Overfull \hbox (9.28113pt too wide) in paragraph at lines 184--184
+Overfull \hbox (15.06512pt too wide) in paragraph at lines 243--243
 []\TU/AdobeTextPro(0)/m/n/10 E. M. Stoudenmire, \TU/AdobeTextPro(0)/m/it/10 Ten
 sor Diagram Notation\TU/AdobeTextPro(0)/m/n/10 , April 2021, [Online]. Availabl
 e: []$[][][][][] [] [] [] [][][][][][][][][][][][][] []
  []
 
-[4] (./main.aux)
+[5] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1512,7 +1582,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1BF91F9780EFAD9F087BEF00A890F09F;1335.
+(rerunfilecheck)             Checksum: D1F8310FDC505055DE42BC8C12918B9C;1270.
 runsystem(rm main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1520,12 +1590,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37124 strings out of 476143
- 743154 string characters out of 5810533
- 1588464 words of memory out of 5000000
- 57363 multiletter control sequences out of 15000+600000
- 490955 words of font info for 131 fonts, out of 8000000 for 9000
+ 37261 strings out of 476143
+ 748666 string characters out of 5810533
+ 1592469 words of memory out of 5000000
+ 57490 multiletter control sequences out of 15000+600000
+ 491003 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 80i,11n,88p,1159b,5060s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,15n,88p,1736b,5054s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (5 pages, 70620 bytes).
+Output written on main.xdv (6 pages, 101432 bytes).

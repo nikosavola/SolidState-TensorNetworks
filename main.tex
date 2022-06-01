@@ -70,14 +70,13 @@ This exercise aims to present the theory behind tensor networks and their use in
 
 \subsection{Tensor networks}
 
-Tensor networks are a powerful tool for splitting a high-dimensional function into constituent parts of smaller tensors. 
+Tensor networks (TN) are a powerful tool for splitting a high-dimensional function into constituent parts of smaller tensors. 
 Here a tensor refers to a multidimensional array, rank zero corresponding to a scalar, rank one to a vector, rank two to a matrix, and further ranks being referred to as rank $n$ tensors.
-
-It is natural to use Tensor network notation (TNN), which can be considered a graphical generalisation of Einstein summation, for presenting Tensor networks~\cite{Bridgeman_2017}. This notation maps tensors to  nodes with lines corresponding to the rank of the tensor. The lines represent indices for the multidimensional array, see \cref{sfig:tensor_basics}.
+It is natural to use Tensor network notation (TNN), which can be considered a graphical generalisation of Einstein summation~\cite{Bridgeman_2017}. This notation maps tensors to  nodes with $n$ lines corresponding to the rank $n$ of the tensor. The lines represent indices for the multidimensional array as demonstrated in \cref{sfig:tensor_basics}.
 
 The elegance of TNN arises from contracting tensors. Multiplication is done by linking the lines of the tensors. For example, matrix-vector multiplication consists of linking a node with one line to a node with two lines. The ensuing tensor will have one free line, resulting in a vector as expected.
 This logic is further demonstrated for a few examples in \cref{sfig:tensor_samples}.
-Notice how multiplication of high-rank tensors is rendered graphically trivial. This is indeed useful for representing complex architectures of tensor networks.
+Notice how multiplication of high-rank tensors is rendered graphically trivial. This is indeed useful for representing complex architectures of TN.
 
 
 
@@ -95,8 +94,8 @@ Notice how multiplication of high-rank tensors is rendered graphically trivial. 
 
 \subsubsection{Machine learning}
 
-As interest in deep learning has skyrocketed~\cite{DL_review}, using Tensor networks in conjunction with neural networks (NN) has been explored.
-Although tensor networks are still an active research topic, some prominent tensor network architectures for machine learning have emerged, such as, Matrix Product States (MPS) and Tensor Renormalization Group (TRG).
+As popularity of deep learning has risen rapidly~\cite{DL_review}, interest in using TN as replacements or in conjunction with neural networks (NN) has been explored.
+Although TN are still an active research topic, some prominent TN architectures for machine learning have emerged, such as, Matrix Product States (MPS) and Tensor Renormalization Group (TRG).
 
 TODO MPS
 
@@ -104,14 +103,13 @@ TODO MPS
 TODO TRG https://tensornetwork.org/trg/
 
 
-One branch of research involves using a tensor network directly as machine learning model architecture. Another uses tensor networks to compress layers in neural network architectures or for other auxilary tasks.
+One branch of research involves using a TN directly as machine learning model architecture. Another uses TNs to compress layers in neural network architectures or for other auxiliary tasks.
 
 a paradigm called differentiable programming.
 
-TODO MPS
 
 
-In fact, it has been shown that there exists a mapping from generative neural networks referred to as Restricted Boltzmann machines to Tensor networks~\cite{PhysRevB.97.085104}, highlighting the link to deep learning.
+In fact, it has been shown that there exists a mapping from generative neural networks referred to as Restricted Boltzmann machines to TNs~\cite{PhysRevB.97.085104}, highlighting the link to deep learning.
 
 
 \subsection{Modelling many-body physics}
@@ -119,25 +117,86 @@ In fact, it has been shown that there exists a mapping from generative neural ne
 todo work as Ansätze
 
 
-\section{Numerical implementation}
+% \section{Numerical implementation}
 
 
 % https://quimb.readthedocs.io/en/latest/examples/ex_tn_train_circuit.html
 
 
-\cite{Roberts2019}
+% \cite{Roberts2019}
 
 
+
+\section{Example: Training a quantum circuit}
+
+TODO EXPLAIN WHAT WE ARE DOING
+
+\subsection{Implementation}
+
+We use an ansatz circuit consisting of quantum U gates and Controlled-Z gates (CZ). The U-gates represent all possible single-qubit operations and are of the form
+\begin{align}
+    U(\theta, \phi, \lambda) =
+            \begin{pmatrix}
+                \cos\left(\frac{\theta}{2}\right)          & -e^{i\lambda}\sin\left(\frac{\theta}{2}\right) \\
+                e^{i\phi}\sin\left(\frac{\theta}{2}\right) & e^{i(\phi+\lambda)}\cos\left(\frac{\theta}{2}\right)
+            \end{pmatrix}
+            .
+\end{align}
+The CZ gates are two-qubit gates flipping the phase if one of the qubits is in the $|1\rangle$ state. It is a symmetric operation and is represented as
+\begin{align}
+    CZ(q_1, q_0)=
+        |0\rangle\langle 0| \otimes I + |1\rangle\langle 1| \otimes \sigma_\text{z} =
+        \begin{pmatrix}
+            1 & 0 & 0 & 0 \\
+            0 & 1 & 0 & 0 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & -1
+        \end{pmatrix}
+        ,
+\end{align}
+where $\sigma_\text{z}$ is a Pauli-Z gate.
+Our ansatz is implemented numerically in Python using the \emph{quimb} library~\cite{Gray2018} as
+\setminted[python]{fontsize=\scriptsize}
 \begin{minted}{python}
-# the hamiltonian
-H = qu.ham_ising(n, jz=1.0, bx=0.7, cyclic=False)
+import quimb as qu
+import quimb.tensor as qtn
+
+n = 5
+depth = 4
+
+circ = qtn.Circuit(n)
+
+for d in range(depth):
+    for i in range(circ.N):
+        params = qu.randn(3, dist='uniform') # initialize with random parameters
+        circ.apply_gate('U3', *params, i, gate_round=d, parametrize=True)
+
+    for i in (reversed(regs) if (d % 2 == 0) else regs):
+        circ.apply_gate('CZ', i, i + 1, gate_round=d)
+
+# final single qubit layer
+for i in range(circ.N):
+    params = qu.randn(3, dist='uniform') # initialize with random parameters
+    circ.apply_gate('U3', *params, i, gate_round=r, parametrize=True)
 \end{minted}
+The resulting ansatz consists of exclusively tensors. Thus, a graph complying with TNN presented in \cref{fig:tensor_diagrams} can be generated. Similar graphs are shown in \cref{fig:TNN_circuit} with colouring displaying the quantum gates and qubit indices in \protect\subref{sfig:TNN} and \protect\subref{sfig:TNN_qubits}, respectively.
+
+\begin{figure}[ht]
+    \centering
+    \subfloat[]{{\includegraphics[width=0.47\textwidth]{figures/tensor_network_graph.pdf}\label{sfig:TNN}}} \quad
+    \subfloat[]{{\includegraphics[width=0.47\textwidth]{figures/tensor_network_qubits.pdf}\label{sfig:TNN_qubits}}}
+    
+    \caption{TNN graph of our ansatz quantum circuit with colouring for \protect\subref{sfig:TNN} quantum gates \protect\subref{sfig:TNN_qubits} qubit indices. The open ends of the TN, labelled with \texttt{k} and \texttt{b}, are consequently linked to a target problem.}
+    \label{fig:TNN_circuit}
+\end{figure}
+
+The TN is then connected to 
+TODO qu.ham\_ising
 
 
 
-\section{Example: Training a quantum circuit for unitary evolution}
 
-todo
+\subsection{Results}
 
 
 \begin{figure}[htb]
@@ -145,7 +204,7 @@ todo
 
     \includegraphics[width=0.97\textwidth]{figures/ansatz_circuit.pdf}
 
-    \caption{<caption>}
+    \caption{Result of the trained quantum ansatz circuit generated with Qiskit~\cite{Qiskit}. The purple blocks represent U-gates, while the blue lines with dots are Controlled-Z gates. The U-gates are the most general form of single-qubit gates and thus on a physical device might be implemented as a combination of different gates depending on the given rotations in the noisy intermediate-scale quantum era (NISQ)~\cite{Li2020}.}
     \label{fig:qasm_circuit}
 \end{figure}
 
@@ -178,7 +237,7 @@ https://arxiv.org/pdf/1905.01331.pdf
 \newpage
 \pagestyle{plain}
 %\setlength\bibitemsep{1.3\itemsep}
-%\setlength\bibitemsep{0.1\baselineskip}
+\setlength\bibitemsep{0.1\baselineskip}
 \addcontentsline{toc}{section}{Viitteet}
 \renewcommand*{\bibfont}{\footnotesize}
 \printbibliography{}

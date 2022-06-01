@@ -2363,16 +2363,23 @@
     <bcf:citekey order="8">Stoudenmire2021</bcf:citekey>
     <bcf:citekey order="9">DL_review</bcf:citekey>
     <bcf:citekey order="10">PhysRevB.97.085104</bcf:citekey>
-    <bcf:citekey order="11">Roberts2019</bcf:citekey>
-    <bcf:citekey order="12">PhysRevLett.69.2863</bcf:citekey>
-    <bcf:citekey order="13">Roberts2019</bcf:citekey>
-    <bcf:citekey order="14">Levin_2007</bcf:citekey>
-    <bcf:citekey order="15">White1999</bcf:citekey>
-    <bcf:citekey order="16">Bao_2017</bcf:citekey>
-    <bcf:citekey order="17">Bridgeman_2017</bcf:citekey>
-    <bcf:citekey order="18">Stoudenmire2021</bcf:citekey>
-    <bcf:citekey order="19">DL_review</bcf:citekey>
-    <bcf:citekey order="20">PhysRevB.97.085104</bcf:citekey>
+    <bcf:citekey order="11">Gray2018</bcf:citekey>
+    <bcf:citekey order="12">Qiskit</bcf:citekey>
+    <bcf:citekey order="13">Li2020</bcf:citekey>
+    <bcf:citekey order="14">Qiskit</bcf:citekey>
+    <bcf:citekey order="15">Li2020</bcf:citekey>
+    <bcf:citekey order="16">PhysRevLett.69.2863</bcf:citekey>
+    <bcf:citekey order="17">Roberts2019</bcf:citekey>
+    <bcf:citekey order="18">Levin_2007</bcf:citekey>
+    <bcf:citekey order="19">White1999</bcf:citekey>
+    <bcf:citekey order="20">Bao_2017</bcf:citekey>
+    <bcf:citekey order="21">Bridgeman_2017</bcf:citekey>
+    <bcf:citekey order="22">Stoudenmire2021</bcf:citekey>
+    <bcf:citekey order="23">DL_review</bcf:citekey>
+    <bcf:citekey order="24">PhysRevB.97.085104</bcf:citekey>
+    <bcf:citekey order="25">Gray2018</bcf:citekey>
+    <bcf:citekey order="26">Qiskit</bcf:citekey>
+    <bcf:citekey order="27">Li2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
