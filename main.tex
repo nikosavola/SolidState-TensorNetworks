@@ -60,9 +60,6 @@ Tensor networks have been originally developed for efficiently storing and manip
 This exercise aims to present the theory behind tensor networks and their use in machine learning. Then we present a numerical example for training a tensor network representing a quantum circuit, effectively pre-training a quantum computer for solving a problem.
 
 % can be used in 
-
-
-% TODO review paragraph.
 % https://youtu.be/q8UTwdjS95k
 
 
@@ -76,7 +73,7 @@ It is natural to use Tensor network notation (TNN), which can be considered a gr
 
 The elegance of TNN arises from contracting tensors. Multiplication is done by linking the lines of the tensors. For example, matrix-vector multiplication consists of linking a node with one line to a node with two lines. The ensuing tensor will have one free line, resulting in a vector as expected.
 This logic is further demonstrated for a few examples in \cref{sfig:tensor_samples}.
-Notice how multiplication of high-rank tensors is rendered graphically trivial. This is indeed useful for representing complex architectures of TN.
+Notice how multiplication of high-rank tensors is rendered graphically trivial. This is indeed useful for representing complex architectures of TN\@.
 
 
 
@@ -88,8 +85,6 @@ Notice how multiplication of high-rank tensors is rendered graphically trivial. 
     \caption{\protect\subref{sfig:tensor_basics} Examples of low-rank tensors and their TNN representations. \protect\subref{sfig:tensor_samples} Examples of tensor contractions for matrices. From top to bottom: matrix-vector product, matrix multiplication, and their trace. Note how the last example elegantly results in a scalar. Schematics from Ref.~\cite{Stoudenmire2021}}
     \label{fig:tensor_diagrams}
 \end{figure}
-
-% TODO notation from https://arxiv.org/pdf/1905.01330.pdf
 
 
 \subsubsection{Machine learning}
@@ -129,7 +124,7 @@ todo work as Ansätze
 
 \section{Example: Training a quantum circuit}
 
-TODO EXPLAIN WHAT WE ARE DOING
+In this numerical example, we aim to train a quantum circuit for simulating short time evolution of the quantum transverse field Ising model~\cite{Cervera-Lierta2018}. This is done with unitary TN, which can easily be converted to quantum gate operations. The unitarity is ensured with local unitary tensors $v$ obeying $v^\dagger v = vv^\dagger = I$ for identity tensor of the corresponding rank~\cite{Haghshenas2021}.
 
 \subsection{Implementation}
 
@@ -179,8 +174,7 @@ for i in range(circ.N):
     params = qu.randn(3, dist='uniform') # initialize with random parameters
     circ.apply_gate('U3', *params, i, gate_round=r, parametrize=True)
 \end{minted}
-The resulting ansatz consists of exclusively tensors. Thus, a graph complying with TNN presented in \cref{fig:tensor_diagrams} can be generated. Similar graphs are shown in \cref{fig:TNN_circuit} with colouring displaying the quantum gates and qubit indices in \protect\subref{sfig:TNN} and \protect\subref{sfig:TNN_qubits}, respectively.
-
+The resulting ansatz consists of exclusively tensors. Thus, a graph complying with TNN presented in \cref{fig:tensor_diagrams} can be generated and are shown in \cref{fig:TNN_circuit} with colouring displaying the quantum gates and qubit indices in \protect\subref{sfig:TNN} and \protect\subref{sfig:TNN_qubits}, respectively.
 \begin{figure}[ht]
     \centering
     \subfloat[]{{\includegraphics[width=0.47\textwidth]{figures/tensor_network_graph.pdf}\label{sfig:TNN}}} \quad
@@ -189,46 +183,49 @@ The resulting ansatz consists of exclusively tensors. Thus, a graph complying wi
     \caption{TNN graph of our ansatz quantum circuit with colouring for \protect\subref{sfig:TNN} quantum gates \protect\subref{sfig:TNN_qubits} qubit indices. The open ends of the TN, labelled with \texttt{k} and \texttt{b}, are consequently linked to a target problem.}
     \label{fig:TNN_circuit}
 \end{figure}
+The free lines of the TN are consequently connected to a unitary matrix representing the short time evolution of the transverse field Ising model $U(t) = \e^{-itH}$.
+This is effectively the target unitary matrix we are trying to replicate with the ansatz.
+We implement this in quimb for $t=2$ as follows:
+\begin{minted}{python}
+H = qu.ham_ising(n, cyclic=False)
+U_dense = qu.expm(-1j * (t := 2) * H)
+U = qtn.Tensor(
+    data=U_dense.reshape([2] * (2 * n)),
+    inds=[f'k{i}' for i in range(n)] + [f'b{i}' for i in range(n)],
+    tags={'U_TARGET'}
+)
+\end{minted}
 
-The TN is then connected to 
-TODO qu.ham\_ising
-
+Our loss function to minimise is $L(H_\text{ansatz}) = 1 - \left|\left(H_\text{ansatz}\right)_\gamma U^\gamma \right|$, where $\gamma$ denotes indices for tensor contraction with \emph{tensor index notation}~\cite{Haghshenas2021}.
+We accelerate the training with JAX~\cite{jax2018github}, a framework for automatic differentiation and a just-in-time compiler for Graphics processing units (GPU). Limited-memory BFGS (L-BFGS) is chosen as the optimization algorithm~\cite{zhu1997algorithm}. Additionally, basin-hopping is used to avoid local minima by adding random perturbations found minima.
 
 
 
 \subsection{Results}
 
+The training was performed using an NVIDIA RTX 3070 GPU for the ansatz circuit with five qubits and four layers of $U$-gate rotations per qubit as shown in \cref{sfig:TNN}.
+
+As the system size was not large, it was possible to solve the exact time evolution of the state $U(t)$ and compare it to the evolution provided by the trained ansatz. This was done for a randomly-initialised state $|\psi\rangle$ by estimating the \emph{fidelity} of the ansatz. As our states are pure, we can define the fidelity to be $\langle U^* \psi | H_\text{ansatz} \psi \rangle$. For this value, we attained $98.94 \%$ from several random trials. Thus, the ansatz time evolution appears competent.
+
+Ultimately, the trained TN was converted back to unitary matrices for quantum circuits. This final circuit is depicted graphically in \cref{fig:qasm_circuit}. As quantum computers with five or more qubits have already been realised~\cite{VTT-IQM}, this circuit could be run on an actual quantum computer. Although it would typically first require transpilation to a native gateset from the general $U$-gates in the noisy intermediate-scale quantum era (NISQ)~\cite{Wilson2020,Li2020}.
 
 \begin{figure}[htb]
     \centering
-
-    \includegraphics[width=0.97\textwidth]{figures/ansatz_circuit.pdf}
-
-    \caption{Result of the trained quantum ansatz circuit generated with Qiskit~\cite{Qiskit}. The purple blocks represent U-gates, while the blue lines with dots are Controlled-Z gates. The U-gates are the most general form of single-qubit gates and thus on a physical device might be implemented as a combination of different gates depending on the given rotations in the noisy intermediate-scale quantum era (NISQ)~\cite{Li2020}.}
+    \includegraphics[width=0.87\textwidth]{figures/ansatz_circuit.pdf}
+    \caption{Result of the trained quantum ansatz circuit generated with Qiskit~\cite{Qiskit}. The purple blocks represent U-gates with the given $\theta, \phi,$ and $\lambda$ parameters while the blue lines with dots are CZ-gates.}
     \label{fig:qasm_circuit}
 \end{figure}
 
 
 
-todo suprajohto qubit toteutus
-https://arxiv.org/pdf/2103.12305.pdf
-
-
-
-
-but the motivation is that the architecture generalises to unknown problem
-
 \section{Summary}
 
 Todo
+but the motivation is that the architecture generalises to unknown problem
 
 
 
 
-
-TODO https://github.com/google/TensorNetwork
-
-https://arxiv.org/pdf/1905.01331.pdf
 
 %-------------------
 %   Bibliography

@@ -418,6 +418,74 @@
       \verb 10.1103/PhysRevB.97.085104
       \endverb
     \endentry
+    \entry{Cervera-Lierta2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a2b5e34618e120705e762927644cf0a}{%
+           family={Cervera-Lierta},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={Alba},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a2b5e34618e120705e762927644cf0a}
+      \strng{fullhash}{5a2b5e34618e120705e762927644cf0a}
+      \strng{bibnamehash}{5a2b5e34618e120705e762927644cf0a}
+      \strng{authorbibnamehash}{5a2b5e34618e120705e762927644cf0a}
+      \strng{authornamehash}{5a2b5e34618e120705e762927644cf0a}
+      \strng{authorfullhash}{5a2b5e34618e120705e762927644cf0a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantum}
+      \field{month}{12}
+      \field{title}{{Exact Ising model simulation on a quantum computer}}
+      \field{volume}{2}
+      \field{year}{2018}
+      \field{pages}{114}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22331/q-2018-12-21-114
+      \endverb
+      \verb{urlraw}
+      \verb https://quantum-journal.org/papers/q-2018-12-21-114/
+      \endverb
+      \verb{url}
+      \verb https://quantum-journal.org/papers/q-2018-12-21-114/
+      \endverb
+    \endentry
+    \entry{Haghshenas2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ee2f94cfb7d0173d69e1b37326bbe095}{%
+           family={Haghshenas},
+           familyi={H\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ee2f94cfb7d0173d69e1b37326bbe095}
+      \strng{fullhash}{ee2f94cfb7d0173d69e1b37326bbe095}
+      \strng{bibnamehash}{ee2f94cfb7d0173d69e1b37326bbe095}
+      \strng{authorbibnamehash}{ee2f94cfb7d0173d69e1b37326bbe095}
+      \strng{authornamehash}{ee2f94cfb7d0173d69e1b37326bbe095}
+      \strng{authorfullhash}{ee2f94cfb7d0173d69e1b37326bbe095}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Research}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{{Optimization schemes for unitary tensor-network circuit}}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{pages}{023148}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevResearch.3.023148
+      \endverb
+    \endentry
     \entry{Gray2018}{article}{}
       \name{author}{1}{}{%
         {{hash=f80d9df3eff02314b535af35952e6013}{%
@@ -446,6 +514,233 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.21105/joss.00819
+      \endverb
+    \endentry
+    \entry{jax2018github}{software}{}
+      \name{author}{7}{}{%
+        {{hash=b75383e6b48c8360c7a60031424c85cf}{%
+           family={Bradbury},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=29563c986154ca2b45d286b4dd5ef92a}{%
+           family={Frostig},
+           familyi={F\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7ab2d7e7f2bfceec36e42ad1962fde11}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e4d515e534ba184f553d5a2a926e0ea7}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Matthew\bibnamedelima James},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0101ae5b219809cf901e7645ca40b9ae}{%
+           family={Leary},
+           familyi={L\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=07e607fb522f06610feb023ecfa712e2}{%
+           family={Maclaurin},
+           familyi={M\bibinitperiod},
+           given={Dougal},
+           giveni={D\bibinitperiod}}}%
+        {{hash=02f809ed2547f721c304772c06378c2d}{%
+           family={Wanderman-Milne},
+           familyi={W\bibinithyphendelim M\bibinitperiod},
+           given={Skye},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c60c6011b4fbdbd09646cbdce2b79d81}
+      \strng{fullhash}{1402367cc015793ce082fa6bf0183b0a}
+      \strng{bibnamehash}{c60c6011b4fbdbd09646cbdce2b79d81}
+      \strng{authorbibnamehash}{c60c6011b4fbdbd09646cbdce2b79d81}
+      \strng{authornamehash}{c60c6011b4fbdbd09646cbdce2b79d81}
+      \strng{authorfullhash}{1402367cc015793ce082fa6bf0183b0a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Http://Github.Com/Google/Jax}
+      \field{title}{{JAX: composable transformations of Python+NumPy programs}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://github.com/google/jax
+      \endverb
+      \verb{url}
+      \verb http://github.com/google/jax
+      \endverb
+    \endentry
+    \entry{zhu1997algorithm}{article}{}
+      \name{author}{4}{}{%
+        {{hash=db29c9e94410252c9dd6938604f708b8}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Ciyou},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5a28551b79116d5aa47933899f1dfee0}{%
+           family={Byrd},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8c2f3741ab4369f5590e2e16412db71b}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Peihuang},
+           giveni={P\bibinitperiod}}}%
+        {{hash=88a342d927bf795b0d92af8a5613da31}{%
+           family={Nocedal},
+           familyi={N\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{c2a1382f52718fc3befebc91ab20585e}
+      \strng{fullhash}{c2a1382f52718fc3befebc91ab20585e}
+      \strng{bibnamehash}{c2a1382f52718fc3befebc91ab20585e}
+      \strng{authorbibnamehash}{c2a1382f52718fc3befebc91ab20585e}
+      \strng{authornamehash}{c2a1382f52718fc3befebc91ab20585e}
+      \strng{authorfullhash}{c2a1382f52718fc3befebc91ab20585e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Transactions on Mathematical Software}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{{Algorithm 778: L-BFGS-B}}
+      \field{volume}{23}
+      \field{year}{1997}
+      \field{pages}{550\bibrangedash 560}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/279232.279236
+      \endverb
+    \endentry
+    \entry{VTT-IQM}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=30336d7555fc0ca128f1d1cfba0dcfb7}{%
+           family={Pursula},
+           familyi={P\bibinitperiod},
+           given={Pekka},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e07d7459b46d6bb3d4bf7afc0af4b511}{%
+           family={Majumdar},
+           familyi={M\bibinitperiod},
+           given={Himadri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Espoo}%
+      }
+      \list{organization}{1}{%
+        {VTT, IQM}%
+      }
+      \strng{namehash}{3772611123ca93479f0bdcfc99c76102}
+      \strng{fullhash}{3772611123ca93479f0bdcfc99c76102}
+      \strng{bibnamehash}{3772611123ca93479f0bdcfc99c76102}
+      \strng{authorbibnamehash}{3772611123ca93479f0bdcfc99c76102}
+      \strng{authornamehash}{3772611123ca93479f0bdcfc99c76102}
+      \strng{authorfullhash}{3772611123ca93479f0bdcfc99c76102}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{{Finland's first 5-qubit quantum computer is | VTT News}}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.vttresearch.com/en/news-and-ideas/finlands-first-5-qubit-quantum-computer-now-operational
+      \endverb
+      \verb{url}
+      \verb https://www.vttresearch.com/en/news-and-ideas/finlands-first-5-qubit-quantum-computer-now-operational
+      \endverb
+    \endentry
+    \entry{Wilson2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dbfe261f7960f6371908fef6626b9edf}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Ellis},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3a6cb9ee02c35e89bc4a6478f61464ec}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sudhakar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bfccdbbf84305c0f076fe430f2a8422d}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{41358f5e5c070b00f46c83eb1a5894d2}
+      \strng{fullhash}{41358f5e5c070b00f46c83eb1a5894d2}
+      \strng{bibnamehash}{41358f5e5c070b00f46c83eb1a5894d2}
+      \strng{authorbibnamehash}{41358f5e5c070b00f46c83eb1a5894d2}
+      \strng{authornamehash}{41358f5e5c070b00f46c83eb1a5894d2}
+      \strng{authorfullhash}{41358f5e5c070b00f46c83eb1a5894d2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{title}{{Just-in-time Quantum Circuit Transpilation Reduces Noise}}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2005.12820
+      \endverb
+    \endentry
+    \entry{Li2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=67f3a673d1b5d096250c6b53c122ceb4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ang},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f7e5f2b66213ccdbdc063cea87845b4a}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=56c8228440ce249f6f5dc97ea63ba360}{%
+           family={Krishnamoorthy},
+           familyi={K\bibinitperiod},
+           given={Sriram},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6024c778dc558126d9bca07ae66ca229}{%
+           family={Ang},
+           familyi={A\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4842f9dacf8802c8a892fea283098ce}
+      \strng{fullhash}{b4842f9dacf8802c8a892fea283098ce}
+      \strng{bibnamehash}{b4842f9dacf8802c8a892fea283098ce}
+      \strng{authorbibnamehash}{b4842f9dacf8802c8a892fea283098ce}
+      \strng{authornamehash}{b4842f9dacf8802c8a892fea283098ce}
+      \strng{authorfullhash}{b4842f9dacf8802c8a892fea283098ce}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rapid development of quantum computing (QC) in the NISQ era urgently demands a low-level benchmark suite and insightful evaluation metrics for characterizing the properties of prototype NISQ devices, the efficiency of QC programming compilers, schedulers and assemblers, and the capability of quantum system simulators in a classical computer. In this work, we fill this gap by proposing a low-level, easy-to-use benchmark suite called QASMBench based on the OpenQASM assembly representation. It consolidates commonly used quantum routines and kernels from a variety of domains including chemistry, simulation, linear algebra, searching, optimization, arithmetic, machine learning, fault tolerance, cryptography, etc., trading-off between generality and usability. To analyze these kernels in terms of NISQ device execution, in addition to circuit width and depth, we propose four circuit metrics including gate density, retention lifespan, measurement density, and entanglement variance, to extract more insights about the execution efficiency, the susceptibility to NISQ error, and the potential gain from machine-specific optimizations. Applications in QASMBench can be launched and verified on several NISQ platforms, including IBM-Q, Rigetti, IonQ and Quantinuum. For evaluation, we measure the execution fidelity of a subset of QASMBench applications on 12 IBM-Q machines through density matrix state tomography, which comprises 25K circuit evaluations. We also compare the fidelity of executions among the IBM-Q machines, the IonQ QPU and the Rigetti Aspen M-1 system. QASMBench is released at: http://github.com/pnnl/QASMBench.}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{title}{{QASMBench: A Low-level QASM Benchmark Suite for NISQ Evaluation and Simulation}}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2005.13018
       \endverb
     \endentry
     \entry{Qiskit}{misc}{}
@@ -2812,48 +3107,6 @@
       \field{year}{2021}
       \verb{doi}
       \verb 10.5281/zenodo.2573505
-      \endverb
-    \endentry
-    \entry{Li2020}{article}{}
-      \name{author}{4}{}{%
-        {{hash=67f3a673d1b5d096250c6b53c122ceb4}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Ang},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f7e5f2b66213ccdbdc063cea87845b4a}{%
-           family={Stein},
-           familyi={S\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod}}}%
-        {{hash=56c8228440ce249f6f5dc97ea63ba360}{%
-           family={Krishnamoorthy},
-           familyi={K\bibinitperiod},
-           given={Sriram},
-           giveni={S\bibinitperiod}}}%
-        {{hash=6024c778dc558126d9bca07ae66ca229}{%
-           family={Ang},
-           familyi={A\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{b4842f9dacf8802c8a892fea283098ce}
-      \strng{fullhash}{b4842f9dacf8802c8a892fea283098ce}
-      \strng{bibnamehash}{b4842f9dacf8802c8a892fea283098ce}
-      \strng{authorbibnamehash}{b4842f9dacf8802c8a892fea283098ce}
-      \strng{authornamehash}{b4842f9dacf8802c8a892fea283098ce}
-      \strng{authorfullhash}{b4842f9dacf8802c8a892fea283098ce}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The rapid development of quantum computing (QC) in the NISQ era urgently demands a low-level benchmark suite and insightful evaluation metrics for characterizing the properties of prototype NISQ devices, the efficiency of QC programming compilers, schedulers and assemblers, and the capability of quantum system simulators in a classical computer. In this work, we fill this gap by proposing a low-level, easy-to-use benchmark suite called QASMBench based on the OpenQASM assembly representation. It consolidates commonly used quantum routines and kernels from a variety of domains including chemistry, simulation, linear algebra, searching, optimization, arithmetic, machine learning, fault tolerance, cryptography, etc., trading-off between generality and usability. To analyze these kernels in terms of NISQ device execution, in addition to circuit width and depth, we propose four circuit metrics including gate density, retention lifespan, measurement density, and entanglement variance, to extract more insights about the execution efficiency, the susceptibility to NISQ error, and the potential gain from machine-specific optimizations. Applications in QASMBench can be launched and verified on several NISQ platforms, including IBM-Q, Rigetti, IonQ and Quantinuum. For evaluation, we measure the execution fidelity of a subset of QASMBench applications on 12 IBM-Q machines through density matrix state tomography, which comprises 25K circuit evaluations. We also compare the fidelity of executions among the IBM-Q machines, the IonQ QPU and the Rigetti Aspen M-1 system. QASMBench is released at: http://github.com/pnnl/QASMBench.}
-      \field{eprinttype}{arXiv}
-      \field{month}{5}
-      \field{title}{{QASMBench: A Low-level QASM Benchmark Suite for NISQ Evaluation and Simulation}}
-      \field{year}{2020}
-      \verb{eprint}
-      \verb 2005.13018
       \endverb
     \endentry
   \enddatalist

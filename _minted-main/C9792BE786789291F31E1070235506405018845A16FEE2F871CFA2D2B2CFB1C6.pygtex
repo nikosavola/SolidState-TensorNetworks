@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{H} \PYG{o}{=} \PYG{n}{qu}\PYG{o}{.}\PYG{n}{ham\PYGZus{}ising}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{cyclic}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\PYG{n}{U\PYGZus{}dense} \PYG{o}{=} \PYG{n}{qu}\PYG{o}{.}\PYG{n}{expm}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{n}{j} \PYG{o}{*} \PYG{p}{(}\PYG{n}{t} \PYG{o}{:=} \PYG{l+m+mi}{2}\PYG{p}{)} \PYG{o}{*} \PYG{n}{H}\PYG{p}{)}
+\PYG{n}{U} \PYG{o}{=} \PYG{n}{qtn}\PYG{o}{.}\PYG{n}{Tensor}\PYG{p}{(}
+    \PYG{n}{data}\PYG{o}{=}\PYG{n}{U\PYGZus{}dense}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{([}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{*} \PYG{p}{(}\PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{n}\PYG{p}{)),}
+    \PYG{n}{inds}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+sa}{f}\PYG{l+s+s1}{\PYGZsq{}k}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{i}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{\PYGZsq{}} \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)]} \PYG{o}{+} \PYG{p}{[}\PYG{l+s+sa}{f}\PYG{l+s+s1}{\PYGZsq{}b}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{i}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{\PYGZsq{}} \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)],}
+    \PYG{n}{tags}\PYG{o}{=}\PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}U\PYGZus{}TARGET\PYGZsq{}}\PYG{p}{\PYGZcb{}}
+\PYG{p}{)}
+\end{Verbatim}

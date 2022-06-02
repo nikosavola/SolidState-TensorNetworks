@@ -1,15 +1,15 @@
 # Fdb version 3
-["biber main"] 1654101776 "main.bcf" "main.bbl" "main" 1654101792
-  "main.bcf" 1654101791 107933 c9738e7279a78d978b4a06d14568aa44 "xelatex"
-  "references.bib" 1654101760 18077 d230a2cae5d5e306f9d420f73d2ce0fb ""
+["biber main"] 1654177226 "main.bcf" "main.bbl" "main" 1654177242
+  "main.bcf" 1654177241 108613 e53e2f84a0a1abcfa280804c9930b285 "xelatex"
+  "references.bib" 1654177211 20222 070de9791b5c71602b7b21fd227d7104 ""
   (generated)
   "main.bbl"
   "main.blg"
-["xdvipdfmx"] 1654101791 "main.xdv" "main.pdf" "main" 1654101792
-  "main.xdv" 1654101791 101432 aa5a0157ef2b067ee67640c0e56f5c7d "xelatex"
+["xdvipdfmx"] 1654177241 "main.xdv" "main.pdf" "main" 1654177242
+  "main.xdv" 1654177241 137744 0ca93a39becfe561fe9f245f960dbc12 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1654101788 "main.tex" "main.xdv" "main" 1654101792
+["xelatex"] 1654177238 "main.tex" "main.xdv" "main" 1654177242
   "/dev/null" 0 -1 0 ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -190,19 +190,20 @@
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/opt/texlive/texdir/texmf-var/web2c/xetex/xelatex.fmt" 1651368209 5423108 162eaf97aa8634244d18404738b62abd ""
   "/opt/texlive/texdir/texmf.cnf" 1651368150 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "_minted-main/C431C2D988C0674286052C86052C77AD5018845A16FEE2F871CFA2D2B2CFB1C6.pygtex" 1654101775 2257 15a6da82277a865442e701ed4a76db9b ""
-  "_minted-main/emacs.pygstyle" 1654101775 6365 55f825d08fb893283911d292e9813aec ""
+  "_minted-main/C431C2D988C0674286052C86052C77AD5018845A16FEE2F871CFA2D2B2CFB1C6.pygtex" 1654177225 2257 15a6da82277a865442e701ed4a76db9b ""
+  "_minted-main/C9792BE786789291F31E1070235506405018845A16FEE2F871CFA2D2B2CFB1C6.pygtex" 1654177225 1283 d9a7f93c38542d0e1186a6e2380e0f73 ""
+  "_minted-main/emacs.pygstyle" 1654177225 6365 55f825d08fb893283911d292e9813aec ""
   "figures/ansatz_circuit.pdf" 0 -1 0 ""
-  "figures/sample_contractions.png" 1654101760 73653 00eaa224bac5d0e840ad53ea16c7eea8 ""
-  "figures/tensor_diagrams.png" 1654101760 48592 bf26a85ae185c34d45e96be7d64eef7d ""
+  "figures/sample_contractions.png" 1654177211 73653 00eaa224bac5d0e840ad53ea16c7eea8 ""
+  "figures/tensor_diagrams.png" 1654177211 48592 bf26a85ae185c34d45e96be7d64eef7d ""
   "figures/tensor_network_graph.pdf" 0 -1 0 ""
   "figures/tensor_network_qubits.pdf" 0 -1 0 ""
-  "main.aux" 1654101791 8280 94def099dae988e5bf94e87153d946d5 "xelatex"
-  "main.bbl" 1654101783 112330 154b4ad7254bfd51bd43321531115218 "biber main"
-  "main.out" 1654101791 1270 d1f8310fdc505055de42bc8c12918b9c "xelatex"
-  "main.run.xml" 1654101791 2468 f6a79f9fc35f985e789f730383ad2570 "xelatex"
-  "main.tex" 1654101760 9101 080232305874549f25236f620733f8f0 ""
-  "preamble.tex" 1654101760 4355 ff002223960d0040b65f910df08797d2 ""
+  "main.aux" 1654177241 8790 a5a207c4d2e2616867fa5876b560f9bc "xelatex"
+  "main.bbl" 1654177233 121970 ecf9432a598c13fce30b4b1b3745b583 "biber main"
+  "main.out" 1654177241 1270 d1f8310fdc505055de42bc8c12918b9c "xelatex"
+  "main.run.xml" 1654177241 2468 f6a79f9fc35f985e789f730383ad2570 "xelatex"
+  "main.tex" 1654177211 11304 f59a002b36bcbfafcdae526e52258c6b ""
+  "preamble.tex" 1654177211 4355 ff002223960d0040b65f910df08797d2 ""
   (generated)
   "main.aux"
   "main.bcf"

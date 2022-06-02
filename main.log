@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  1 JUN 2022 16:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  2 JUN 2022 13:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1415,32 +1415,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+AdobeTextPro(0) on 
-input line 74.
-LaTeX Font Info:    No file OT1AdobeTextPro(0).fd. on input line 74.
+input line 71.
+LaTeX Font Info:    No file OT1AdobeTextPro(0).fd. on input line 71.
 
 
 LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 74.
+(Font)              using `OT1/cmr/m/n' instead on input line 71.
 
 LaTeX Font Info:    Trying to load font information for U+esint on input line 7
-4.
+1.
 (/opt/texlive/texdir/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-74.
+71.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-74.
+71.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-74.
+71.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
@@ -1458,12 +1458,12 @@ File: figures/sample_contractions.png Graphic file (type bmp)
 6.pygtex)
 
 LaTeX Warning: File `figures/tensor_network_graph.pdf' not found on input line 
-186.
+180.
 
 ! Unable to load picture or PDF file 'figures/tensor_network_graph.pdf'.
 <to be read again> 
                    }
-l.186 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+l.180 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
                                                    \quad
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1475,7 +1475,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+l.180 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
                                                    \quad
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1486,19 +1486,19 @@ File: figures/tensor_network_graph.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/tensor_network_graph.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.186 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+l.180 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
                                                    \quad
 The requested image couldn't be read because
 it was not a recognized image format.
 
 
 LaTeX Warning: File `figures/tensor_network_qubits.pdf' not found on input line
- 187.
+ 181.
 
 ! Unable to load picture or PDF file 'figures/tensor_network_qubits.pdf'.
 <to be read again> 
                    }
-l.187 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+l.181 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1510,7 +1510,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+l.181 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1521,18 +1521,23 @@ File: figures/tensor_network_qubits.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/tensor_network_qubits.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.187 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+l.181 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
 
+\openout3 = `main.pyg'.
 
-LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 205.
+
+(./_minted-main/C9792BE786789291F31E1070235506405018845A16FEE2F871CFA2D2B2CFB1C
+6.pygtex) [3]
+
+LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 214.
 
 ! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
 <to be read again> 
                    }
-l.205 ...97\textwidth]{figures/ansatz_circuit.pdf}
+l.214 ...87\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1544,7 +1549,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.205 ...97\textwidth]{figures/ansatz_circuit.pdf}
+l.214 ...87\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1555,25 +1560,32 @@ File: figures/ansatz_circuit.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.205 ...97\textwidth]{figures/ansatz_circuit.pdf}
+l.214 ...87\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
 
-[3] [4]
+[4]
 
 LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' in size <5.5> not avai
 lable
-(Font)              size <5> substituted on input line 243.
+(Font)              size <5> substituted on input line 240.
 
 
-Overfull \hbox (15.06512pt too wide) in paragraph at lines 243--243
+Overfull \hbox (15.06512pt too wide) in paragraph at lines 240--240
 []\TU/AdobeTextPro(0)/m/n/10 E. M. Stoudenmire, \TU/AdobeTextPro(0)/m/it/10 Ten
 sor Diagram Notation\TU/AdobeTextPro(0)/m/n/10 , April 2021, [Online]. Availabl
 e: []$[][][][][] [] [] [] [][][][][][][][][][][][][] []
  []
 
-[5] (./main.aux)
+
+Overfull \hbox (0.43016pt too wide) in paragraph at lines 240--240
+[]\TU/AdobeTextPro(0)/m/n/10 R. Haghshenas, ‘  Optimization schemes for unitary
+ tensor-network circuit,’ \TU/AdobeTextPro(0)/m/it/10 Physical Review Research\
+TU/AdobeTextPro(0)/m/n/10 , vol. 3,
+ []
+
+[5] [6] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1590,12 +1602,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37261 strings out of 476143
- 748666 string characters out of 5810533
- 1592469 words of memory out of 5000000
- 57490 multiletter control sequences out of 15000+600000
+ 37288 strings out of 476143
+ 750044 string characters out of 5810533
+ 1602667 words of memory out of 5000000
+ 57514 multiletter control sequences out of 15000+600000
  491003 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 80i,15n,88p,1736b,5054s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,15n,88p,1736b,5484s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (6 pages, 101432 bytes).
+Output written on main.xdv (7 pages, 137744 bytes).
