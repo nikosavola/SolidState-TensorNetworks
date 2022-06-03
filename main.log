@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  2 JUN 2022 13:40
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.1)  3 JUN 2022 10:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -572,8 +572,8 @@ Space,Path
 
 
 Package fontspec Info: Font family 'AdobeTextPro(0)' created for font
-(fontspec)             'AdobeTextPro' with options [Ligatures=TeX,Path =
-(fontspec)             fonts/,Extension =.ttf,UprightFont =
+(fontspec)             'AdobeTextPro' with options [Ligatures=TeX,Scale =
+(fontspec)             0.958,Path = fonts/,Extension =.ttf,UprightFont =
 (fontspec)             *-Regular,ItalicFont = *-It,BoldFont =
 (fontspec)             *-Bold,BoldItalicFont= *-BoldIt].
 (fontspec)              
@@ -581,26 +581,28 @@ Package fontspec Info: Font family 'AdobeTextPro(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[fonts/AdobeTextPro-Regular.ttf]/OT:script=latn;lang
-uage=dflt;mapping=tex-text;"
+(fontspec)             <->s*[0.958]"[fonts/AdobeTextPro-Regular.ttf]/OT:script=
+latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[fonts/AdobeTextPro-Regular.ttf]/OT:script=latn;lang
-uage=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[0.958]"[fonts/AdobeTextPro-Regular.ttf]/OT:script=
+latn;language=dflt;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[fonts/AdobeTextPro-Bold.ttf]/OT:script=latn;languag
-e=dflt;mapping=tex-text;"
+(fontspec)             <->s*[0.958]"[fonts/AdobeTextPro-Bold.ttf]/OT:script=lat
+n;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[fonts/AdobeTextPro-Bold.ttf]/OT:script=latn;languag
-e=dflt;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[0.958]"[fonts/AdobeTextPro-Bold.ttf]/OT:script=lat
+n;language=dflt;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[fonts/AdobeTextPro-It.ttf]/OT:script=latn;language=
-dflt;mapping=tex-text;"
+(fontspec)             <->s*[0.958]"[fonts/AdobeTextPro-It.ttf]/OT:script=latn;
+language=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[fonts/AdobeTextPro-BoldIt.ttf]/OT:script=latn;langu
-age=dflt;mapping=tex-text;"
+(fontspec)             <->s*[0.958]"[fonts/AdobeTextPro-BoldIt.ttf]/OT:script=l
+atn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 11.49591pt on input line 49.
  (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2022/01/16 v1.71
 
@@ -1293,61 +1295,61 @@ Package csquotes Info: Redefining alias 'default' -> 'british'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 20.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 26.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 20.
+ 26.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-0.
+6.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 26.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-20.
+26.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 26.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 20.
+ 26.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 26.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 20.
+e 26.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 20.
-Package hyperref Info: Link coloring OFF on input line 20.
+LaTeX Font Info:    ... okay on input line 26.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1360,9 +1362,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count508
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 (./main.out) (./main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -1399,71 +1401,106 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 20.
-Package biblatex Info: Reference segment=0 on input line 20.
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+AdobeTextPro(0) on 
-input line 71.
-LaTeX Font Info:    No file OT1AdobeTextPro(0).fd. on input line 71.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 16.55411pt on input line 63.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
+(Font)              scaled to size 16.55411pt on input line 63.
 
+Overfull \hbox (5.11601pt too wide) in paragraph at lines 65--67
+\TU/AdobeTextPro(0)/m/n/12 Tensor networks have been originally developed for e
+fficiently storing and manipulating high-dimen-
+ []
+
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 13.79507pt on input line 74.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
+(Font)              scaled to size 13.79507pt on input line 74.
+LaTeX Font Info:    Trying to load font information for OT1+AdobeTextPro(0) on 
+input line 77.
+LaTeX Font Info:    No file OT1AdobeTextPro(0).fd. on input line 77.
 
 LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 71.
+(Font)              using `OT1/cmr/m/n' instead on input line 77.
 
 LaTeX Font Info:    Trying to load font information for U+esint on input line 7
-1.
+7.
 (/opt/texlive/texdir/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-71.
+77.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-71.
+77.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-71.
+77.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 File: figures/tensor_diagrams.png Graphic file (type bmp)
 <figures/tensor_diagrams.png>
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 9.57993pt on input line 88.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
+(Font)              scaled to size 9.57993pt on input line 88.
 File: figures/sample_contractions.png Graphic file (type bmp)
 <figures/sample_contractions.png>
- [1] [2]
+ [1]
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
+(Font)              scaled to size 11.49591pt on input line 96.
+
+Overfull \hbox (4.96657pt too wide) in paragraph at lines 114--116
+\TU/AdobeTextPro(0)/m/n/12 In this numerical example, we train a quantum circui
+t to simulate short time evolution of the quantum
+ []
+
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 8.43033pt on input line 139.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 6.32275pt on input line 139.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
+(Font)              scaled to size 11.49591pt on input line 141.
 \openout3 = `main.pyg'.
 
-
 (./_minted-main/emacs.pygstyle)
-(./_minted-main/C431C2D988C0674286052C86052C77AD5018845A16FEE2F871CFA2D2B2CFB1C
-6.pygtex)
+(./_minted-main/D87D0BDDA9839822E0612A5B83B1D3435018845A16FEE2F871CFA2D2B2CFB1C
+6.pygtex [2]
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 7.66394pt on input line 1.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 5.74796pt on input line 2.
+)
 
 LaTeX Warning: File `figures/tensor_network_graph.pdf' not found on input line 
-180.
+166.
 
 ! Unable to load picture or PDF file 'figures/tensor_network_graph.pdf'.
 <to be read again> 
                    }
-l.180 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+l.166 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
                                                    \quad
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1475,7 +1512,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+l.166 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
                                                    \quad
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1486,19 +1523,19 @@ File: figures/tensor_network_graph.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/tensor_network_graph.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.180 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
+l.166 ...nsor_network_graph.pdf}\label{sfig:TNN}}}
                                                    \quad
 The requested image couldn't be read because
 it was not a recognized image format.
 
 
 LaTeX Warning: File `figures/tensor_network_qubits.pdf' not found on input line
- 181.
+ 167.
 
 ! Unable to load picture or PDF file 'figures/tensor_network_qubits.pdf'.
 <to be read again> 
                    }
-l.181 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+l.167 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1510,7 +1547,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+l.167 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1521,7 +1558,7 @@ File: figures/tensor_network_qubits.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/tensor_network_qubits.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.181 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
+l.167 ...work_qubits.pdf}\label{sfig:TNN_qubits}}}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1529,15 +1566,26 @@ it was not a recognized image format.
 \openout3 = `main.pyg'.
 
 
-(./_minted-main/C9792BE786789291F31E1070235506405018845A16FEE2F871CFA2D2B2CFB1C
-6.pygtex) [3]
+(./_minted-main/9A73DCBA037052DDFFEACBB32BD39ADB5018845A16FEE2F871CFA2D2B2CFB1C
+6.pygtex
 
-LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 214.
+LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' in size <6.5> not avai
+lable
+(Font)              size <6> substituted on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' in size <5.5> not avai
+lable
+(Font)              size <5> substituted on input line 3.
+
+) [3]
+
+LaTeX Warning: File `figures/ansatz_circuit.pdf' not found on input line 197.
 
 ! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
 <to be read again> 
                    }
-l.214 ...87\textwidth]{figures/ansatz_circuit.pdf}
+l.197 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -1549,7 +1597,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 ...87\textwidth]{figures/ansatz_circuit.pdf}
+l.197 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1560,32 +1608,26 @@ File: figures/ansatz_circuit.pdf Graphic file (type pdf)
 ! Unable to load picture or PDF file 'figures/ansatz_circuit.pdf'.
 <to be read again> 
                    \GPT@clipend 
-l.214 ...87\textwidth]{figures/ansatz_circuit.pdf}
+l.197 ...97\textwidth]{figures/ansatz_circuit.pdf}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
 
 [4]
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 8.14293pt on input line 225.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
+(Font)              scaled to size 8.14293pt on input line 225.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/sc' will be
+(Font)              scaled to size 8.14293pt on input line 225.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 225.
 
-LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' in size <5.5> not avai
+
+LaTeX Font Warning: Font shape `OT1/AdobeTextPro(0)/m/n' in size <8.5> not avai
 lable
-(Font)              size <5> substituted on input line 240.
+(Font)              size <8> substituted on input line 225.
 
-
-Overfull \hbox (15.06512pt too wide) in paragraph at lines 240--240
-[]\TU/AdobeTextPro(0)/m/n/10 E. M. Stoudenmire, \TU/AdobeTextPro(0)/m/it/10 Ten
-sor Diagram Notation\TU/AdobeTextPro(0)/m/n/10 , April 2021, [Online]. Availabl
-e: []$[][][][][] [] [] [] [][][][][][][][][][][][][] []
- []
-
-
-Overfull \hbox (0.43016pt too wide) in paragraph at lines 240--240
-[]\TU/AdobeTextPro(0)/m/n/10 R. Haghshenas, ‘  Optimization schemes for unitary
- tensor-network circuit,’ \TU/AdobeTextPro(0)/m/it/10 Physical Review Research\
-TU/AdobeTextPro(0)/m/n/10 , vol. 3,
- []
-
-[5] [6] (./main.aux)
+[5] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1594,7 +1636,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D1F8310FDC505055DE42BC8C12918B9C;1270.
+(rerunfilecheck)             Checksum: E5772143F79B6CB90FD59CEFE1821C59;1172.
 runsystem(rm main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1602,12 +1644,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37288 strings out of 476143
- 750044 string characters out of 5810533
- 1602667 words of memory out of 5000000
- 57514 multiletter control sequences out of 15000+600000
- 491003 words of font info for 137 fonts, out of 8000000 for 9000
+ 37318 strings out of 476143
+ 750888 string characters out of 5810533
+ 1607709 words of memory out of 5000000
+ 57540 multiletter control sequences out of 15000+600000
+ 497941 words of font info for 157 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 80i,15n,88p,1736b,5484s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,15n,88p,1736b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (7 pages, 137744 bytes).
+Output written on main.xdv (6 pages, 149484 bytes).

@@ -4,19 +4,17 @@
 
 \PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{5}
 \PYG{n}{depth} \PYG{o}{=} \PYG{l+m+mi}{4}
-
 \PYG{n}{circ} \PYG{o}{=} \PYG{n}{qtn}\PYG{o}{.}\PYG{n}{Circuit}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
 
 \PYG{k}{for} \PYG{n}{d} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{depth}\PYG{p}{):}
     \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{circ}\PYG{o}{.}\PYG{n}{N}\PYG{p}{):}
-        \PYG{n}{params} \PYG{o}{=} \PYG{n}{qu}\PYG{o}{.}\PYG{n}{randn}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{n}{dist}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}uniform\PYGZsq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} initialize with random parameters}
+        \PYG{n}{params} \PYG{o}{=} \PYG{n}{qu}\PYG{o}{.}\PYG{n}{randn}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{n}{dist}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}uniform\PYGZsq{}}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} initialize with random parameters}
         \PYG{n}{circ}\PYG{o}{.}\PYG{n}{apply\PYGZus{}gate}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}U3\PYGZsq{}}\PYG{p}{,} \PYG{o}{*}\PYG{n}{params}\PYG{p}{,} \PYG{n}{i}\PYG{p}{,} \PYG{n}{gate\PYGZus{}round}\PYG{o}{=}\PYG{n}{d}\PYG{p}{,} \PYG{n}{parametrize}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
 
     \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{p}{(}\PYG{n+nb}{reversed}\PYG{p}{(}\PYG{n}{regs}\PYG{p}{)} \PYG{k}{if} \PYG{p}{(}\PYG{n}{d} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{2} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{k}{else} \PYG{n}{regs}\PYG{p}{):}
         \PYG{n}{circ}\PYG{o}{.}\PYG{n}{apply\PYGZus{}gate}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}CZ\PYGZsq{}}\PYG{p}{,} \PYG{n}{i}\PYG{p}{,} \PYG{n}{i} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{gate\PYGZus{}round}\PYG{o}{=}\PYG{n}{d}\PYG{p}{)}
 
-\PYG{c+c1}{\PYGZsh{} final single qubit layer}
-\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{circ}\PYG{o}{.}\PYG{n}{N}\PYG{p}{):}
-    \PYG{n}{params} \PYG{o}{=} \PYG{n}{qu}\PYG{o}{.}\PYG{n}{randn}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{n}{dist}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}uniform\PYGZsq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} initialize with random parameters}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{circ}\PYG{o}{.}\PYG{n}{N}\PYG{p}{):}  \PYG{c+c1}{\PYGZsh{} final single qubit layer}
+    \PYG{n}{params} \PYG{o}{=} \PYG{n}{qu}\PYG{o}{.}\PYG{n}{randn}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{n}{dist}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}uniform\PYGZsq{}}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} initialize with random parameters}
     \PYG{n}{circ}\PYG{o}{.}\PYG{n}{apply\PYGZus{}gate}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}U3\PYGZsq{}}\PYG{p}{,} \PYG{o}{*}\PYG{n}{params}\PYG{p}{,} \PYG{n}{i}\PYG{p}{,} \PYG{n}{gate\PYGZus{}round}\PYG{o}{=}\PYG{n}{r}\PYG{p}{,} \PYG{n}{parametrize}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
 \end{Verbatim}
