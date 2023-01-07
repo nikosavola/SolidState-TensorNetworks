@@ -1,6 +1,5 @@
 # Compiled PDFs should be in the gh-pages branch
 main.pdf
-*.pdf
 
 # GDrive
 *.ini
